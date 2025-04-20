@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juhana Sherin TM | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      .grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  .btn {
+  display: inline-block;
+  background-color: #3c91e6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2c6fc1;
+}
+
+i.fab {
+  margin-right: 8px;
+  color: #0077b5;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+}
+
+.grid-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.fab.fa-linkedin {
+  color: #0077b5;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.fas, .fab {
+  color: #80dfff;
+  margin-right: 8px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.cv-button {
+  display: inline-block;
+  background: #3c91e6;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px; /* Oval shape */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(60, 145, 230, 0.3);
+}
+
+.cv-button:hover {
+  background: #2c6fc1;
+  transform: translateY(-2px);
+}
+
+
+    }
+
+    body {
+  background: #0d0d0d;
+  color: #eee;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: radial-gradient(#a26fffba 1px, transparent 1px), url('bg.jpg');
+  background-size: 40px 40px, cover;
+  background-position: center;
+}
+
+
+    header {
+      background: linear-gradient(to bottom, rgb(6, 11, 47), rgba(41, 12, 42, 0.812)), url('bg.jpg');
+     background-size: cover;
+     background-position: center;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+      position: relative;
+    }
+
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #8d92d5;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+      animation: fadeInUp 1s ease;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+      animation: fadeIn 1s ease;
+    }
+
+    h2 {
+      color: #b1c7f5;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.03);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project a,
+    .design a,
+    .card a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #80dfff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #4c368d;
+      color: #a7bddb;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.5rem; }
+      nav a { display: block; margin: 0.5rem 0; }
+      section { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Juhana Sherin TM</h1>
+    <p>CSE Undergraduate | Graphic Design Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#designs">Designs</a>
+      <a href="#roles">Roles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m Juhana Sherin TM, a 2nd year Computer Science Engineering student at Sahrdaya College of Engineering and Technology. I have a foundational understanding of C, Java and I enjoy poster designing using Canva and Figma. I actively participate in multiple student organizations and am passionate about creativity and team collaboration.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <p><strong>Languages:</strong> C, Java</p>
+      <p><strong>Design Tools:</strong> Canva, Beginner in Figma</p>
+      <p><strong>Soft Skills:</strong> Public Speaking, Leadership, Problem Solving,Teamwork, Communication, Organization Skills</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card project">
+      <h3>Alimerz</h3>
+      <p>A React-based assistive application for people with memory-related issues, developed as part of a college group project.</p>
+      <p><strong>Role:</strong> Team Member – brainstormed solutions, contributed feature ideas</p>
+    </div>
+    <div class="card project">
+      <h3>Eco Link</h3>
+      <p>Platform for waste collection and recycling products, developed using HTML, CSS, and JavaScript.</p>
+      <p><strong>Role:</strong> Team Member – discussed features, brainstromed solutions</p>
+    </div>
+  </section>
+
+  <section id="designs">
+    <h2>Design Works</h2>
+    <div class="grid-gallery">
+      <img src="design1.jpg" alt="Design 1">
+      <img src="design2.jpg" alt="Design 2">
+      <img src="design3.jpg" alt="Design 3">
+      <img src="design4.jpg" alt="Design 4">
+      <img src="design5.jpg" alt="Design 5">
+      <img src="design6.jpg" alt="Design 6">
+    </div>
+  </section>
+
+  <section id="roles">
+    <h2>Current Roles in Organizations</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Graphic Designer</strong> – IEEE Smart Cities (February 2025–present): Creating engaging visual content and maintaining the organization’s visual identity.</li>
+        <li><strong>Video Editor</strong> – IEEE Sahrdaya (February 2025–present): Editing promotional and event videos for student activities.</li>
+        <li><strong>Vice President</strong> – IEDC Sahrdaya (Augest 2024–present): Coordinating and leading innovation and entrepreneurship-related events and initiatives.</li>
+        <li><strong>Media Lead</strong> – IEDC Sahrdaya Future Tech Club (Augest 2024–present): Managing media content and communication strategies for the tech club.</li>
+        <li><strong>Campus Ambassador</strong> – EDC IIT Delhi (Januvary 2025- February 2025): Promoted events and contributed to outreach and publicity, ranked among top ambassadors.</li>
+
+      </ul>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>
+        <i class="fas fa-envelope"></i> juhana4501@gmail.com
+      </p>
+      <p>
+        <i class="fas fa-phone"></i> 9778334501
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/juhanasherintm" target="_blank">
+          <i class="fab fa-linkedin"></i> linkedin.com/in/juhanasherintm
+        </a>
+        <p>
+          <a href="https://github.com/juhanashrn" target="_blank">
+            <i class="fab fa-github"></i> github.com/juhanashrn
+          </a>
+      </p>
+      <a href="cv.pdf" download class="cv-button">Download My CV</a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Juhana Sherin TM. All rights reserved.</p>
+  </footer>
+</body>
+</html>
